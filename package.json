@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce-project",
+  "private": true,
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && venv\\Scripts\\python.exe manage.py runserver",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

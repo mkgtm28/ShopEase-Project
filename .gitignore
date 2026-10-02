@@ -1,0 +1,101 @@
+# =========================
+# Node / React
+# =========================
+
+node_modules/
+**/node_modules/
+
+dist/
+**/dist/
+
+dist-ssr/
+
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+**/__pycache__/
+
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# =========================
+# Django
+# =========================
+
+*.log
+
+db.sqlite3
+db.sqlite3-journal
+
+
+# =========================
+# Python Virtual Environment
+# =========================
+
+venv/
+**/venv/
+
+.venv/
+**/.venv/
+
+env/
+**/env/
+
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+**/.env
+
+.env.*
+**/.env.*
+
+!.env.example
+!**/.env.example
+
+
+# =========================
+# IDE
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Django Media
+# =========================
+
+# Keep media/product images in GitHub for this college project.
+# Therefore, media/ is intentionally NOT ignored.
