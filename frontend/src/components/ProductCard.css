@@ -17,13 +17,14 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
+
+
 /* Product Image */
 
 .product-image-container {
   position: relative;
   height: 240px;
   background: #f3f4f6;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +33,8 @@
 .product-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 15px;
 }
 
 .product-image-placeholder {

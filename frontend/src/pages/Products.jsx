@@ -69,6 +69,7 @@ function Products() {
           <select
             className="product-filter"
             value={category}
+            
             onChange={(e) => setCategory(e.target.value)}
           >
             <option value="">All Categories</option>
@@ -76,6 +77,8 @@ function Products() {
             <option value="Clothing">Clothing</option>
             <option value="Books">Books</option>
             <option value="Accessories">Accessories</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Home Designing">Home Designing</option>
           </select>
 
           <select
