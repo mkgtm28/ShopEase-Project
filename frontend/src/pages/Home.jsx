@@ -40,6 +40,7 @@ function Home() {
           <p>
             Discover quality products at great prices.
             Find everything you need in one place.
+            We will make easier for you.
           </p>
 
           <div className="hero-buttons">
